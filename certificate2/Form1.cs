@@ -182,9 +182,9 @@ namespace certificate2
         {
             if (string.IsNullOrEmpty(tbadd.Text))
             {
-                //MessageBox.Show("JAMES CODE FAK!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("JAMES CODE FAK!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                 MessageBox.Show("You must input Data!","", MessageBoxButtons.OK,MessageBoxIcon.Information);
+                // MessageBox.Show("You must input Data!","", MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
             else
             {
