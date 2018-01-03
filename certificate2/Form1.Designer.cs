@@ -65,6 +65,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@
             this.cbname.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbname.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbname.FormattingEnabled = true;
-            this.cbname.Location = new System.Drawing.Point(-42, 94);
+            this.cbname.Location = new System.Drawing.Point(30, 150);
             this.cbname.Name = "cbname";
             this.cbname.Size = new System.Drawing.Size(476, 26);
             this.cbname.TabIndex = 3;
@@ -146,7 +147,7 @@
             // btnPrint
             // 
             this.btnPrint.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Location = new System.Drawing.Point(217, 18);
+            this.btnPrint.Location = new System.Drawing.Point(3, 3);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(70, 33);
             this.btnPrint.TabIndex = 16;
@@ -156,6 +157,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnPrint);
             this.panel1.Location = new System.Drawing.Point(36, 11);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(76, 40);
@@ -194,7 +196,7 @@
             "Best in Attendance",
             "Employee of the Month",
             "Most number of \"Awesome\" KUDOS"});
-            this.comboBox2.Location = new System.Drawing.Point(63, 121);
+            this.comboBox2.Location = new System.Drawing.Point(30, 204);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(476, 26);
             this.comboBox2.TabIndex = 4;
@@ -400,7 +402,7 @@
             // tbadd
             // 
             this.tbadd.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbadd.Location = new System.Drawing.Point(269, 31);
+            this.tbadd.Location = new System.Drawing.Point(30, 94);
             this.tbadd.Multiline = true;
             this.tbadd.Name = "tbadd";
             this.tbadd.Size = new System.Drawing.Size(308, 38);
@@ -420,7 +422,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(313, 18);
+            this.btnAdd.Location = new System.Drawing.Point(344, 94);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 33);
             this.btnAdd.TabIndex = 1;
@@ -431,7 +433,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(429, 90);
+            this.button1.Location = new System.Drawing.Point(429, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 33);
             this.button1.TabIndex = 2;
@@ -445,7 +447,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(991, 464);
-            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.tbadd);
@@ -484,6 +485,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Certificate";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
