@@ -8,8 +8,6 @@ using System.Text;
 using System.Windows.Forms;
 using System.Globalization;
 using CrystalDecisions.CrystalReports.Engine;
-using CrystalDecisions.Shared;
-using CrystalDecisions.ReportSource;
 using CrystalDecisions.Windows.Forms;
 using System.Data.Sql;
 using System.Data.SqlClient;
@@ -47,7 +45,7 @@ namespace certificate2
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
             
         {
-            //string a = "";
+            string a = "";
             if (comboBox2.Text == "Most Valuable Player")
             {
                 tbdis.Text = @"""Agent with the most overall points this month""";
