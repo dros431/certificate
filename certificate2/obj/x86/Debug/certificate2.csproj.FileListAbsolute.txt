@@ -26,7 +26,6 @@ C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\
 C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\obj\x86\Debug\certificate2.csproj.GenerateResource.Cache
 C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\obj\x86\Debug\certificate2.exe
 C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\obj\x86\Debug\certificate2.pdb
-C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\obj\x86\Debug\certificate2.csprojResolveAssemblyReference.cache
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\bin\x86\Debug\certificate2.exe.config
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.exe
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.pdb
@@ -56,3 +55,4 @@ C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.Form2.resources
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.Properties.Resources.resources
 C:\Users\ARIES03\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.csproj.GenerateResource.Cache
+C:\Users\TARD2X\documents\visual studio 2015\Projects\certificate2\certificate2\obj\x86\Debug\certificate2.csprojResolveAssemblyReference.cache
