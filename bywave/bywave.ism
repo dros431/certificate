@@ -340,7 +340,8 @@
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td>{68933BE9-3B1D-4114-AD15-9D0EDDD1C38F}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>certificate2.Primary_output</td><td>{AB8B3797-5518-40A8-B48B-592A8EDC3B53}</td><td>INSTALLDIR</td><td>8</td><td/><td>certificate2.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>certificate2.Primary_output</td><td>{AB8B3797-5518-40A8-B48B-592A8EDC3B53}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>certificate2.Primary_output1</td><td>{C21EA8BD-92E2-4357-B91F-9A294D612F3E}</td><td>INSTALLDIR</td><td>8</td><td/><td>certificate2.primary_output</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1010,6 +1011,7 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>INSTALLDIR</td><td>IS_ININSTALL_SHORTCUT</td></row>
 		<row><td>INSTALLDIR</td><td>certificate2.Primary_output</td></row>
+		<row><td>INSTALLDIR</td><td>certificate2.Primary_output1</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1823,6 +1825,7 @@
 		<col key="yes" def="s72">Component_</col>
 		<row><td>bywave_Files</td><td>IS_ININSTALL_SHORTCUT</td></row>
 		<row><td>bywave_Files</td><td>certificate2.Primary_output</td></row>
+		<row><td>bywave_Files</td><td>certificate2.Primary_output1</td></row>
 	</table>
 
 	<table name="File">
@@ -1837,7 +1840,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>certificate2.primary_output</td><td>certificate2.Primary_output</td><td>certificate2.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;certificate2&gt;|Built</td><td>3</td><td/></row>
+		<row><td>certificate2.primary_output</td><td>certificate2.Primary_output1</td><td>certificate2.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;certificate2&gt;|Built</td><td>3</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -1983,6 +1986,7 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>IS_ININSTALL_SHORTCUT</td><td/><td/><td>_916911B7_74F8_4814_B2FA_A14FFA485859_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>certificate2.Primary_output</td><td/><td/><td>_AB5CF9B8_ED92_4239_8BF8_F80D5E3D1678_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>certificate2.Primary_output1</td><td/><td/><td>_69D6E61F_E812_4BD8_BFDA_2489C777BC6B_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2605,7 +2609,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>cetificate</td><td>0</td><td/><td>-1641701231</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>cetificate</td><td>0</td><td/><td>413557516</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION40FULL</td><td>1033</td><td>Microsoft .NET Framework 4.0 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>-1775935959</td></row>
@@ -3574,7 +3578,7 @@
 		<row><td>IDS__IsErrorDlg_Yes</td><td>1033</td><td>&amp;Yes</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__IsExitDialog_Finish</td><td>1033</td><td>&amp;Finish</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__IsExitDialog_InstallSuccess</td><td>1033</td><td>The InstallShield Wizard has successfully installed [ProductName]. Click Finish to exit the wizard.</td><td>0</td><td/><td>2091065377</td></row>
-		<row><td>IDS__IsExitDialog_LaunchProgram</td><td>1033</td><td>Launch [ProductName]</td><td>0</td><td/><td>-1641719631</td></row>
+		<row><td>IDS__IsExitDialog_LaunchProgram</td><td>1033</td><td>Launch [ProductName]</td><td>0</td><td/><td>413590284</td></row>
 		<row><td>IDS__IsExitDialog_ShowReadMe</td><td>1033</td><td>Show the readme file</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__IsExitDialog_UninstallSuccess</td><td>1033</td><td>The InstallShield Wizard has successfully uninstalled [ProductName]. Click Finish to exit the wizard.</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__IsExitDialog_Update_InternetConnection</td><td>1033</td><td>Your Internet connection can be used to make sure that you have the latest updates.</td><td>0</td><td/><td>2091065377</td></row>
@@ -3709,7 +3713,7 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>2091065377</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>2091065377</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.cetificate.com</td><td>0</td><td/><td>-1641701231</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.cetificate.com</td><td>0</td><td/><td>413557516</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>certificate</td><td>0</td><td/><td>-1775931799</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>2091065377</td></row>
 	</table>
@@ -4334,7 +4338,7 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<row><td>RebootYesNo</td><td>Yes</td><td/></row>
 		<row><td>ReinstallModeText</td><td>omus</td><td/></row>
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
-		<row><td>SHOWLAUNCHPROGRAM</td><td>-1</td><td/></row>
+		<row><td>SHOWLAUNCHPROGRAM</td><td>0</td><td/></row>
 		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;INSTALLDIR;LAUNCHPROGRAM</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
 		<row><td>UpgradeCode</td><td>{3B76A2B8-6EB5-40BC-ABDB-B10417413283}</td><td/></row>
