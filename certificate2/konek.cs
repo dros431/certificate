@@ -14,7 +14,7 @@ namespace certificate2
 
         public SqlConnection getcon()
         {
-            con = new SqlConnection(@"Data Source=MENDROS\SQLEXPRESS;Initial Catalog=bywave;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=DESKTOP-SDUC1LD;Initial Catalog=bywave;User ID=sa;Password=1234");
             con.Open();
 
             return con;
