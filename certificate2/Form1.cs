@@ -115,14 +115,14 @@ namespace certificate2
             {
                 tbHTS.Text = "Michael Belle Dupio";
             }
-            if (cboption.Text == "Technical Support Manager - USA")
-            {
-               tb1.Text = "Tom Duffy";
-            }
-            if (cboption.Text == "Head of Technical Support")
-            {
-                tb2.Text = "Jourdain Bonfante";
-            }
+            //if (cboption.Text == "Technical Support Manager - USA")
+            //{
+            //   tb1.Text = "Tom Duffy";
+            //}
+            //if (cboption.Text == "Head of Technical Support")
+            //{
+            //    tb2.Text = "Jourdain Bonfante";
+            //}
             if (cboption.Text == "Operations Manager")
             {
                tb3.Text = "Isiel Zanya Undag";
@@ -131,10 +131,10 @@ namespace certificate2
             {
                 tb4.Text = "Joel Zapanta";
             }
-            if (cboption.Text == "Managing Director")
-            {
-                tb5.Text = "Joshua Oliver";
-            }
+            //if (cboption.Text == "Managing Director")
+            //{
+            //    tb5.Text = "Joshua Oliver";
+            //}
         }
         
         TextObject t1,t2,a,t4,t5,name1,name2,name3,name4,name5,name6;
@@ -252,11 +252,11 @@ namespace certificate2
             t4 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["time"];
             t5 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["text17"];
             name1 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t1"];
-            name2 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t2"];
-            name3 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t3"];
+            //name2 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t2"];
+            //name3 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t3"];
             name4 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t4"];
             name5 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t5"];
-            name6 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t6"];
+            //name6 = (TextObject)c.ReportDefinition.Sections["Section3"].ReportObjects["t6"];
             t1.Text = cbname.Text;
             a.Text = tbdis.Text;
             t5.Text = dateTimePicker1.Text;
@@ -296,11 +296,11 @@ namespace certificate2
             }
             
             name1.Text = tbHTS.Text;
-            name2.Text = tb1.Text;
-            name3.Text = tb2.Text;
+            //name2.Text = tb1.Text;
+            //name3.Text = tb2.Text;
             name4.Text = tb3.Text;
             name5.Text = tb4.Text;
-            name6.Text = tb5.Text;
+            //name6.Text = tb5.Text;
             f2.crt.ReportSource = c;
             f2.ShowDialog();
 

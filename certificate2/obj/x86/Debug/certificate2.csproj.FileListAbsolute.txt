@@ -80,7 +80,6 @@ C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\b
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\bin\x86\Debug\ShockwaveFlashObjects.dll
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\bin\x86\Debug\stdole.dll
-C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.csprojResolveAssemblyReference.cache
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.Form1.resources
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.Form2.resources
 C:\Users\TARD2X\Documents\Visual Studio 2015\Projects\certificate\certificate2\obj\x86\Debug\certificate2.Properties.Resources.resources

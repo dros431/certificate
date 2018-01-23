@@ -41,15 +41,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.tbHTS = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.tb1 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.tb2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.tb3 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.tb4 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.tb5 = new System.Windows.Forms.TextBox();
             this.cboption = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -77,7 +74,7 @@
             this.cbname.Location = new System.Drawing.Point(30, 150);
             this.cbname.Name = "cbname";
             this.cbname.Size = new System.Drawing.Size(476, 26);
-            this.cbname.TabIndex = 3;
+            this.cbname.TabIndex = 2;
             this.cbname.SelectedIndexChanged += new System.EventHandler(this.cbname_SelectedIndexChanged);
             // 
             // label1
@@ -112,7 +109,7 @@
             this.comboBox1.Location = new System.Drawing.Point(30, 252);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(224, 26);
-            this.comboBox1.TabIndex = 5;
+            this.comboBox1.TabIndex = 4;
             // 
             // label3
             // 
@@ -131,7 +128,7 @@
             this.tbdis.Multiline = true;
             this.tbdis.Name = "tbdis";
             this.tbdis.Size = new System.Drawing.Size(476, 48);
-            this.tbdis.TabIndex = 6;
+            this.tbdis.TabIndex = 5;
             this.tbdis.Leave += new System.EventHandler(this.tbdis_Leave);
             // 
             // label4
@@ -147,10 +144,10 @@
             // btnPrint
             // 
             this.btnPrint.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrint.Location = new System.Drawing.Point(3, 3);
+            this.btnPrint.Location = new System.Drawing.Point(2, 3);
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(70, 33);
-            this.btnPrint.TabIndex = 16;
+            this.btnPrint.Size = new System.Drawing.Size(73, 33);
+            this.btnPrint.TabIndex = 14;
             this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
@@ -167,7 +164,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(572, 109);
+            this.label6.Location = new System.Drawing.Point(572, 127);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(264, 16);
             this.label6.TabIndex = 2;
@@ -176,11 +173,11 @@
             // tbHTS
             // 
             this.tbHTS.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbHTS.Location = new System.Drawing.Point(569, 128);
+            this.tbHTS.Location = new System.Drawing.Point(569, 149);
             this.tbHTS.Multiline = true;
             this.tbHTS.Name = "tbHTS";
             this.tbHTS.Size = new System.Drawing.Size(392, 26);
-            this.tbHTS.TabIndex = 8;
+            this.tbHTS.TabIndex = 9;
             this.tbHTS.Leave += new System.EventHandler(this.tbHTS_Leave);
             // 
             // comboBox2
@@ -199,47 +196,26 @@
             this.comboBox2.Location = new System.Drawing.Point(30, 204);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(476, 26);
-            this.comboBox2.TabIndex = 4;
+            this.comboBox2.TabIndex = 3;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(572, 173);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(248, 16);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "Technical Support Manager USA:";
             // 
             // tb1
             // 
             this.tb1.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb1.Location = new System.Drawing.Point(569, 192);
+            this.tb1.Location = new System.Drawing.Point(826, 402);
             this.tb1.Multiline = true;
             this.tb1.Name = "tb1";
-            this.tb1.Size = new System.Drawing.Size(392, 26);
+            this.tb1.Size = new System.Drawing.Size(10, 26);
             this.tb1.TabIndex = 9;
             this.tb1.Leave += new System.EventHandler(this.tb1_Leave);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(572, 236);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(216, 16);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Head of Technical Support:";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // tb2
             // 
             this.tb2.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb2.Location = new System.Drawing.Point(569, 255);
+            this.tb2.Location = new System.Drawing.Point(848, 402);
             this.tb2.Multiline = true;
             this.tb2.Name = "tb2";
-            this.tb2.Size = new System.Drawing.Size(392, 26);
+            this.tb2.Size = new System.Drawing.Size(10, 26);
             this.tb2.TabIndex = 10;
             this.tb2.Leave += new System.EventHandler(this.tb1_Leave);
             // 
@@ -247,7 +223,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(572, 292);
+            this.label9.Location = new System.Drawing.Point(572, 184);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(160, 16);
             this.label9.TabIndex = 12;
@@ -256,18 +232,18 @@
             // tb3
             // 
             this.tb3.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb3.Location = new System.Drawing.Point(569, 311);
+            this.tb3.Location = new System.Drawing.Point(569, 201);
             this.tb3.Multiline = true;
             this.tb3.Name = "tb3";
             this.tb3.Size = new System.Drawing.Size(392, 26);
-            this.tb3.TabIndex = 11;
+            this.tb3.TabIndex = 10;
             this.tb3.Leave += new System.EventHandler(this.tb1_Leave);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(572, 352);
+            this.label10.Location = new System.Drawing.Point(572, 235);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(136, 16);
             this.label10.TabIndex = 14;
@@ -276,30 +252,20 @@
             // tb4
             // 
             this.tb4.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb4.Location = new System.Drawing.Point(569, 371);
+            this.tb4.Location = new System.Drawing.Point(569, 257);
             this.tb4.Multiline = true;
             this.tb4.Name = "tb4";
             this.tb4.Size = new System.Drawing.Size(392, 26);
-            this.tb4.TabIndex = 12;
+            this.tb4.TabIndex = 11;
             this.tb4.Leave += new System.EventHandler(this.tb1_Leave);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(572, 403);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(152, 16);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "Managing Director:";
             // 
             // tb5
             // 
             this.tb5.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb5.Location = new System.Drawing.Point(569, 422);
+            this.tb5.Location = new System.Drawing.Point(864, 402);
             this.tb5.Multiline = true;
             this.tb5.Name = "tb5";
-            this.tb5.Size = new System.Drawing.Size(392, 26);
+            this.tb5.Size = new System.Drawing.Size(10, 26);
             this.tb5.TabIndex = 13;
             this.tb5.Leave += new System.EventHandler(this.tb1_Leave);
             // 
@@ -310,22 +276,19 @@
             this.cboption.FormattingEnabled = true;
             this.cboption.Items.AddRange(new object[] {
             "Technical Support Manager - Phils.",
-            "Technical Support Manager - USA",
-            "Head of Technical Support",
             "Operations Manager",
-            "Project Manager",
-            "Managing Director"});
-            this.cboption.Location = new System.Drawing.Point(569, 72);
+            "Project Manager"});
+            this.cboption.Location = new System.Drawing.Point(569, 95);
             this.cboption.Name = "cboption";
             this.cboption.Size = new System.Drawing.Size(392, 26);
-            this.cboption.TabIndex = 7;
+            this.cboption.TabIndex = 8;
             this.cboption.SelectedIndexChanged += new System.EventHandler(this.cboption_SelectedIndexChanged);
             // 
             // label12
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(572, 53);
+            this.label12.Location = new System.Drawing.Point(572, 71);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(160, 16);
             this.label12.TabIndex = 2;
@@ -338,7 +301,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(789, 27);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(172, 20);
-            this.dateTimePicker1.TabIndex = 15;
+            this.dateTimePicker1.TabIndex = 13;
             // 
             // dateTimePicker2
             // 
@@ -347,7 +310,7 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(569, 27);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 14;
+            this.dateTimePicker2.TabIndex = 12;
             // 
             // label13
             // 
@@ -363,7 +326,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(572, 53);
+            this.label14.Location = new System.Drawing.Point(572, 71);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(160, 16);
             this.label14.TabIndex = 2;
@@ -394,7 +357,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 371);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(536, 77);
+            this.pictureBox1.Size = new System.Drawing.Size(949, 81);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
@@ -406,7 +369,7 @@
             this.tbadd.Multiline = true;
             this.tbadd.Name = "tbadd";
             this.tbadd.Size = new System.Drawing.Size(308, 38);
-            this.tbadd.TabIndex = 0;
+            this.tbadd.TabIndex = 1;
             this.tbadd.Leave += new System.EventHandler(this.tbadd_Leave);
             // 
             // label5
@@ -425,7 +388,7 @@
             this.btnAdd.Location = new System.Drawing.Point(344, 94);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 33);
-            this.btnAdd.TabIndex = 1;
+            this.btnAdd.TabIndex = 6;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -436,7 +399,7 @@
             this.button1.Location = new System.Drawing.Point(429, 94);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 33);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 7;
             this.button1.Text = "Remove";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -455,15 +418,12 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.cboption);
             this.Controls.Add(this.tb5);
-            this.Controls.Add(this.label11);
             this.Controls.Add(this.tb4);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.tb3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tb2);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.tb1);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tbHTS);
@@ -506,15 +466,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tbHTS;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox tb1;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox tb2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox tb3;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox tb4;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox tb5;
         private System.Windows.Forms.ComboBox cboption;
         private System.Windows.Forms.Label label12;
